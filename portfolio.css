@@ -1,0 +1,24 @@
+@font-face {
+	/*from dafont.com*/
+    font-family: "BebasNeue";
+    src: url("/bebas_neue/BebasNeue.otf") format("truetype");
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+#title {
+	position: absolute;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+	font-family: BebasNeue;
+	font-size: 5em;
+	color: #000;
+	text-align: center;
+}
