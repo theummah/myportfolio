@@ -25,9 +25,13 @@ body {
 
 #title {
 	position: relative;
-	margin-top: 2em;
+	margin-top: 5em;
 	margin-left: auto;
 	margin-right: auto;
+	
+}
+
+.expand {
 	max-width: 7em;
 	padding: 7.5px 15px;
 	font-family: 'BebasNeue', Arial, Impact;
@@ -37,4 +41,9 @@ body {
 	background-color: black;
 	border-radius: 5px;
 	opacity: 0.75;
+}
+
+.highlight {
+	background-color: yellow;
+	color: #000;
 }
