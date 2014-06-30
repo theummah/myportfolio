@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'BebasNeue';
-	src: url('web fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.eot');
-	src: url('web fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-		url('web fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.woff') format('woff'), 
-		url('web fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.ttf') format('truetype'), 
-		url('web fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.svg#webfont') format('svg');
+	src: url('web\ fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.eot');
+	src: url('web\ fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+		url('web\ fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.woff') format('woff'), 
+		url('web\ fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.ttf') format('truetype'), 
+		url('web\ fonts/bebasneue_regular_macroman/specimen_files/BebasNeue-webfont.svg#webfont') format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -23,19 +23,35 @@ body {
 	background-size: 1286 723;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 #title {
 	position: relative;
 	margin-top: 5em;
 	margin-left: auto;
 	margin-right: auto;
-	
+	max-width: 7em;
+	padding: 7.5px 15px;
+	font-size: 25pt;
+}
+
+.item {
+	position: relative;
+	display: block;
+	margin-top: 8em;
+	float: left;
+	font-size: 16pt;
+	width: 33.33%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .expand {
-	max-width: 7em;
-	padding: 7.5px 15px;
 	font-family: 'BebasNeue', Arial, Impact;
-	font-size: 3em;
 	color: #FFF;
 	text-align: center;
 	background-color: black;
@@ -46,4 +62,11 @@ body {
 .highlight {
 	background-color: yellow;
 	color: #000;
+}
+
+.personal_content {
+	text-align: center;
+	font-size: 10pt;
+	color: #F00;
+	display: none;
 }
