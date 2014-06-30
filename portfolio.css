@@ -29,22 +29,26 @@ ul {
 	padding: 0;
 }
 
+.personal_content ul {
+	list-style-type: disc;
+}
+
 #title {
 	position: relative;
-	margin-top: 5em;
+	margin-top: 3em;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 7em;
 	padding: 7.5px 15px;
-	font-size: 25pt;
+	font-size: 50pt;
 }
 
 .item {
 	position: relative;
 	display: block;
-	margin-top: 8em;
+	margin-top: 6em;
 	float: left;
-	font-size: 16pt;
+	font-size: 32pt;
 	width: 33.33%;
 	padding-top: 30px;
 	padding-bottom: 30px;
