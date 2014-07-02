@@ -18,5 +18,9 @@ $(document).on('click', '#arrow_container', function(){
 });
 
 $(document).on('click', '#contact_icon', function(){
-    $('#my_contact').fadeToggle();
+    $('#contact').fadeIn();
+});
+
+$(document).on('click', '#close', function(){
+    $('#contact').fadeOut();
 });
