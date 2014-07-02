@@ -10,8 +10,13 @@ $(document).ready(function(){
 $(document).on('click', '.myexp', function(){
 	$(this).find('.list_edu').fadeToggle();
 });
-	$(document).on('click', '#arrow_container', function(){
-       $('html, body').stop().animate({
-             scrollTop: $(window).height()
-         }, 1500);
-	});
+
+$(document).on('click', '#arrow_container', function(){
+    $('html, body').stop().animate({
+        scrollTop: $(window).height()
+    }, 1500);
+});
+
+$(document).on('click', '#contact_icon', function(){
+    $('#my_contact').fadeToggle();
+});
