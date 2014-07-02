@@ -145,20 +145,25 @@ opacity: 0.8;
 }
 
 #my_contact{
-z-index: 15;
-width: 600px;
-height: 230px;
-left: 0;
-right: 0;
-margin-left: auto;
-margin-right: auto;
-position: absolute;
-background: white;
-border-radius: 10px;
-padding-left: 25px;
-padding-right: 25px;
-top:28%;	
-display:none;
+	z-index: 15;
+	width: 600px;
+	height: 230px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	background: white;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	top:28%;	
+	display:none;
+	font-family: 'Open Sans', 'BebasNeue', Arial, Impact;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0.9;
 }
 
 .myexp {
