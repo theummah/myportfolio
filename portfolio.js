@@ -1,12 +1,13 @@
-jQuery(document).ready(function(){
-	//mouseenter highlight here
-	$('.expand').on('mouseenter', function(){
-		$(this).addClass('highlight');
-		$(this).children().show();
-	});
+$(document).ready(function(){
 
-	$('.expand').on('mouseleave', function(){
-		$(this).children().hide();
-		$(this).removeClass('highlight');
-	});
 });
+
+
+$(document).on('click', '.myexp', function(){
+	$('#list_edu').fadeToggle();
+});
+	$(document).on('click', '#arrow_container', function(){
+       $('html, body').stop().animate({
+             scrollTop: $(window).height()
+         }, 1500);
+	});
