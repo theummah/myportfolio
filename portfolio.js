@@ -18,9 +18,13 @@ $(document).on('click', '#arrow_container', function(){
 });
 
 $(document).on('click', '#contact_icon', function(){
+<<<<<<< HEAD
     $('#contact').fadeIn();
 });
 
 $(document).on('click', '#close', function(){
     $('#contact').fadeOut();
+=======
+    $('#my_contact').fadeToggle();
+>>>>>>> be7677adb6a59ba2cf7acd3291343770d8d8fa0e
 });
