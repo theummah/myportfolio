@@ -160,15 +160,16 @@ a:clicked {
 	-webkit-transition: color 0.5s ease-in-out;
 }
 
-#arrow_container:hover{
-	color: #FF3838;
+#arrow_container:hover, #contact_icon:hover {
+	cursor: pointer;
+	color: #E60000;
 }
 
 .extraOtherCSS{
 	position:absolute;
 }
 
-.extraCSS{
+.extraCSS {
 	position: absolute;
 	top: 15px;
 	left: 14px;
@@ -188,11 +189,6 @@ a:clicked {
 	z-index: 3;
 	color: #FF5A5A;
 	-webkit-transition: color 0.5s ease-in-out;
-}
-
-#contact_icon:hover {
-	cursor:pointer;
-	color: #FF3838;
 }
 
 #close {
