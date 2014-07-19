@@ -121,7 +121,6 @@ a:clicked {
 }
 
 #arrow_container {
-    -webkit-transition: color .5s ease-in-out;
     color: #FF5A5A;
     font-size: 4em;
     height: 75px;
@@ -154,7 +153,6 @@ a:clicked {
 }
 
 #contact_icon {
-    -webkit-transition: color .5s ease-in-out;
     color: #FF5A5A;
     font-size: 4em;
     height: 60px;
@@ -176,9 +174,17 @@ a:clicked {
     top: 0;
 }
 
-#parttwo,#partthree {
+#parttwo, #partthree {
     background-image: url(http://bit.ly/1m0oapG);
     background-size: 100% 100%;
     width: 100%;
     z-index: 1;
+}
+
+#contact_icon, #arrow_container {
+	transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    -webkit-transition: color .5s ease-in-out;
 }
